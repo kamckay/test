@@ -1,0 +1,515 @@
+<!-- MotionChart generated in R 3.2.0 by googleVis 0.6.2 package -->
+<!-- Wed May 24 13:17:02 2017 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+
+
+// jsData 
+function gvisDataMotionChartID32f85c1e6ac4 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"1",
+2011,
+319832,
+15436
+],
+[
+"1",
+2012,
+265111,
+13835
+],
+[
+"1",
+2013,
+87552,
+5648
+],
+[
+"1",
+2014,
+118348,
+5122
+],
+[
+"1",
+2015,
+83322,
+4045
+],
+[
+"10",
+2011,
+3280280,
+64087
+],
+[
+"10",
+2012,
+2670263,
+55949
+],
+[
+"10",
+2013,
+1876864,
+31015
+],
+[
+"10",
+2014,
+1213144,
+25793
+],
+[
+"10",
+2015,
+504489,
+18796
+],
+[
+"11",
+2011,
+91281,
+3813
+],
+[
+"11",
+2012,
+94945,
+4745
+],
+[
+"11",
+2013,
+70283,
+2945
+],
+[
+"11",
+2014,
+67078,
+2709
+],
+[
+"11",
+2015,
+53926,
+2433
+],
+[
+"2",
+2011,
+474888,
+18328
+],
+[
+"2",
+2012,
+388192,
+14696
+],
+[
+"2",
+2013,
+285527,
+8076
+],
+[
+"2",
+2014,
+245545,
+7306
+],
+[
+"2",
+2015,
+189192,
+7095
+],
+[
+"3",
+2011,
+240865,
+10715
+],
+[
+"3",
+2012,
+187202,
+9247
+],
+[
+"3",
+2013,
+91034,
+4037
+],
+[
+"3",
+2014,
+86098,
+3607
+],
+[
+"3",
+2015,
+57082,
+2765
+],
+[
+"4",
+2011,
+243532,
+10254
+],
+[
+"4",
+2012,
+184087,
+8835
+],
+[
+"4",
+2013,
+93234,
+5276
+],
+[
+"4",
+2014,
+86500,
+4817
+],
+[
+"4",
+2015,
+83523,
+4280
+],
+[
+"5",
+2011,
+845924,
+35316
+],
+[
+"5",
+2012,
+665719,
+29911
+],
+[
+"5",
+2013,
+381031,
+14749
+],
+[
+"5",
+2014,
+378418,
+14112
+],
+[
+"5",
+2015,
+243147,
+11034
+],
+[
+"6",
+2011,
+134389,
+5790
+],
+[
+"6",
+2012,
+109976,
+5596
+],
+[
+"6",
+2013,
+70667,
+3071
+],
+[
+"6",
+2014,
+67509,
+2830
+],
+[
+"6",
+2015,
+36819,
+2106
+],
+[
+"7",
+2011,
+575345,
+22743
+],
+[
+"7",
+2012,
+500208,
+20509
+],
+[
+"7",
+2013,
+313376,
+12806
+],
+[
+"7",
+2014,
+304516,
+11679
+],
+[
+"7",
+2015,
+203163,
+10048
+],
+[
+"8",
+2011,
+692994,
+24647
+],
+[
+"8",
+2012,
+619229,
+22888
+],
+[
+"8",
+2013,
+375845,
+13175
+],
+[
+"8",
+2014,
+360921,
+12403
+],
+[
+"8",
+2015,
+268448,
+11779
+],
+[
+"9",
+2011,
+102181,
+5213
+],
+[
+"9",
+2012,
+85871,
+4335
+],
+[
+"9",
+2013,
+51037,
+1862
+],
+[
+"9",
+2014,
+53411,
+1708
+],
+[
+"9",
+2015,
+28382,
+1190
+],
+[
+"Other",
+2011,
+0,
+20
+],
+[
+"Other",
+2012,
+3059,
+670
+],
+[
+"Other",
+2013,
+7378,
+1309
+],
+[
+"Other",
+2014,
+17936,
+963
+],
+[
+"Other",
+2015,
+27793,
+422
+],
+[
+"SDA 1",
+2011,
+1416519,
+59462
+],
+[
+"SDA 1",
+2012,
+1042444,
+57554
+],
+[
+"SDA 1",
+2013,
+468691,
+46379
+],
+[
+"SDA 1",
+2014,
+497000,
+44271
+],
+[
+"SDA 1",
+2015,
+457007,
+39065
+],
+[
+"SDA 2",
+2011,
+1702872,
+70323
+],
+[
+"SDA 2",
+2012,
+1180330,
+66925
+],
+[
+"SDA 2",
+2013,
+672912,
+43322
+],
+[
+"SDA 2",
+2014,
+935617,
+39066
+],
+[
+"SDA 2",
+2015,
+1006754,
+39208
+] 
+];
+data.addColumn('string','Region');
+data.addColumn('number','year');
+data.addColumn('number','totaltrips');
+data.addColumn('number','totalusers');
+data.addRows(datajson);
+return(data);
+}
+
+
+// jsDrawChart
+function drawChartMotionChartID32f85c1e6ac4() {
+var data = gvisDataMotionChartID32f85c1e6ac4();
+var options = {};
+options["width"] = 600;
+options["height"] = 500;
+options["state"] = "\n{\"xAxisOption\":\"2\",\"yAxisOption\":\"3\",\"dimensions\":{\"iconDimensions\":[\"dim0\"]}}\n";
+options["title"] = "Texas Medical Transportation Program";
+
+
+    var chart = new google.visualization.MotionChart(
+    document.getElementById('MotionChartID32f85c1e6ac4')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+
+
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "motionchart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartMotionChartID32f85c1e6ac4);
+})();
+function displayChartMotionChartID32f85c1e6ac4() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+
+
+// jsFooter
+</script>
+
+
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID32f85c1e6ac4"></script>
+
+
+<!-- divChart -->
+  
+<div id="MotionChartID32f85c1e6ac4" 
+  style="width: 600; height: 500;">
+</div>
